@@ -12,10 +12,7 @@ def main():
     ls_cmd = "git ls-tree -r main --name-only"
     file_names = [
         "./Breakdown.txt",
-        "./RustBenchmark/src/tablesaw.rs",
-        "./RustBenchmark/src/tablesaw/selection.rs",
-        "./RustBenchmark/src/tablesaw/table.rs",
-        "./RustBenchmark/src/tablesaw/tableslice.rs",
+        "./RustBenchmark/src/lib.rs",
         "./RustBenchmark/benches/benchmark.rs",
         "./JavaBenchmark/src/main/java/uk/ac/ic/doc/spe/MyBenchmark.java",
         "./TargetApplication/src/main/java/uk/ac/ic/doc/spe/covidsaw/App.java",
